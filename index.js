@@ -1,15 +1,5 @@
 #! /usr/bin/env node
-import {
-  spinner,
-  multiselect,
-  select,
-  confirm,
-  text,
-  isCancel,
-  cancel,
-  intro,
-  outro,
-} from "@clack/prompts";
+import { spinner, intro, outro } from "@clack/prompts";
 
 // Intro
 console.log("\n");

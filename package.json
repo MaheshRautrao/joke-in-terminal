@@ -1,6 +1,6 @@
 {
-  "name": "joke",
-  "version": "1.0.0",
+  "name": "joke-in-terminal",
+  "version": "1.0.1",
   "description": "generate a random joke in terminal",
   "main": "index.js",
   "type": "module",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "joke": "index.js"
+    "joke": "./index.js"
   },
   "repository": {
     "type": "git",
